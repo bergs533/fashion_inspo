@@ -1,0 +1,375 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#picture {
+    width: 100%;
+    height: 600px;
+    background: url(main_web_back-01.png) center center;
+    -webkit-background-size: cover;
+}
+#container {
+    width: 100%;
+    height: 500px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.pattern1 {
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 1180px;
+    top: 50px;
+}
+
+.home {
+    z-index: 2;
+    float: left;
+    margin-right: 30px;
+}
+
+.celeberties {
+    font-family: Avenir;
+    font-size: 12pt;
+    color: #707070;
+    z-index: 2;
+    float: left;
+    margin-right: 30px;
+}
+
+.runway {
+    font-family: Avenir;
+    font-size: 12pt;
+    color: #707070;
+    z-index: 2;
+    float: left;
+    margin-right: 30px;
+}
+
+.backintime {
+    font-family: Avenir;
+    font-size: 12pt;
+    color: #707070;
+    z-index: 2;
+    float: left;
+    margin-right: 30px;
+}
+
+.line1 {
+    height: 2px;
+    width: 150px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+}
+
+.line2 {
+    height: 2px;
+    width: 650px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+
+.line2celeb {
+    height: 2px;
+    width: 840px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+
+.line2maggie {
+    height: 2px;
+    width: 630px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+
+.line2lorde {
+    height: 2px;
+    width: 1150px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+.line2backintime{
+    height: 2px;
+    width: 720px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+.line2decade{
+    height: 2px;
+    width: 1320px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+.line2celeb{
+    height: 2px;
+    width: 850px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}
+.line2designers{
+    height: 2px;
+    width: 900px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+    right: 0;
+}.line2runway{
+     height: 2px;
+     width: 1000px;
+     background-color: #5e7cbe;
+     position: absolute;
+     z-index: 2;
+     top: 175px;
+     right: 0;
+ }.line2handmade{
+      height: 2px;
+      width: 850px;
+      background-color: #5e7cbe;
+      position: absolute;
+      z-index: 2;
+      top: 175px;
+      right: 0;
+  }
+.title {
+    font-family: Didot;
+    font-size: 100pt;
+    color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    left: 150px;
+    top: 100px
+}
+
+.lorde1 {
+    z-index: 2;
+    float: left;
+    margin-right: 100px;
+}
+
+.chanel {
+    z-index: 2;
+    float: left;
+    margin-right: 100px;
+}
+
+.images {
+    position: absolute;
+    width: 1340px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+}
+.images img {
+    width: 400px;
+}
+.image1{
+    float: left;
+    margin-right: 70px;
+    width: 400px;
+}
+.image2{
+    float: left;
+    margin-right: 70px;
+    width: 400px;
+}
+.image3{
+    float: left;
+    width: 400px;
+}
+.subhead{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+.one{
+    float: left;
+    margin-right: 100px;
+}
+.two{
+    float: left;
+    margin-right: 100px;
+}
+.three{
+    float: left;
+    margin-right: 100px;
+}
+.hello {
+    font-family: Didot;
+    font-size: 50pt;
+    color: #5e7cbe;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+
+.paragraph {
+    font-family: Avenir;
+    font-size: 15pt;
+    color: #707070;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%, 0%);
+}
+
+.pattern2 {
+    width: 100%;
+    height: 50%;
+    z-index: -2;
+    overflow: hidden;
+    position: absolute;
+    top: 1300px;
+}
+.pattern3 {
+    width: 100%;
+    height: 25%;
+    z-index: -2;
+    overflow: hidden;
+    position: absolute;
+    top: 1300px;
+}
+
+.line3 {
+    height: 2px;
+    width: 700px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 150%;
+}
+
+.line4 {
+    height: 2px;
+    width: 700px;
+    background-color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 150%;
+    right: 0;
+}
+
+.quotation {
+    font-family: "Times New Roman";
+    font-size: 220pt;
+    color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 155%;
+}
+
+.quote1 {
+    font-family: Didot;
+    font-size: 70pt;
+    color: #5e7cbe;
+    position: absolute;
+    top: 160%;
+    left: 20%;
+}
+
+.quote2 {
+    font-family: Avenir;
+    font-size: 30pt;
+    color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 165%;
+    right: 20%;
+}
+
+.citation {
+    font-family: Avenir;
+    font-size: 15pt;
+    color: #5e7cbe;
+    position: absolute;
+    z-index: 2;
+    top: 175%;
+    left: 20%;
+}
+
+.one {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 22pt;
+}
+
+.two {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 22pt;
+}
+
+.three {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 22pt;
+}
+.captions{
+    position: absolute;
+    left: 10%;
+    top: 100%;
+}
+.celebcaption1 {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.celebcaption2 {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.celebcaption3 {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.celebparagraph {
+    color: #707070;
+    font-family: Avenir;
+    font-size: 15pt;
+    float: left;
+    margin-right: 70px;
+}
